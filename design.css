@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+}
+nav a:hover {
+    background-color: gray;
+}
+main {
+    padding: 20px;
+    text-align: center; /* Center the image and text */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    height: 200px;
+}
+.sam{
+    max-width: 100%;
+    height: auto;
+}
