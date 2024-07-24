@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style4.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Delhi Tourism</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="places.html">Places</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="form.html">Login</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <h2>Login</h2>
+                <label>Enter your Email</label>
+                <input type="email" name="email"/>
+                <label>Enter your password</label>
+                <input type="password" name="pass"/>
+                <label for="user-type">Select Language</label>
+                <select name="user-type" id="user-type">
+                    <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
+                </select>
+                <label>Would you like to subscribe to the newsletter?</label>
+                <input type="radio" name="option" value="yes"/>Yes
+                <input type="radio" name="option" value="no" />No
+                <br>
+                <input type="submit" value="Submit"/>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; DelhiTourism. All rights reserved.</p>
+    </footer>
+</body>
+</html>
